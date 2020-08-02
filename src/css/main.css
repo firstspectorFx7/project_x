@@ -1,0 +1,30 @@
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: dimgrey;
+}
+
+.header-style {
+    position: relative;
+    display: flex;
+}
+
+.title {
+    position: relative;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+.image {
+    position: relative;
+    width: 225px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.image-style {
+    object-fit: cover;
+}
